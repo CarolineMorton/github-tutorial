@@ -1,0 +1,13 @@
+
+
+#looking over somebody's shoulder copying their python code
+#apparently Stata doesn't work
+
+def bmi(height, weight):
+	bmi = weight/(height**2)
+	bmi_return = round(bmi, 1)
+	return bmi_return
+
+
+
+
