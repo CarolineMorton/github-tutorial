@@ -1,1 +1,18 @@
-Hello this is a test. 
+calculate_bmi <- function(weight_kg, height_m) {
+  # Check if the input values are valid
+  if(weight_kg <= 0 || height_m <= 0) {
+    stop("Weight and height must be greater than zero.")
+  }
+  
+  # Calculate BMI
+  bmi <- weight_kg / (height_m^2)
+  
+  # Return the calculated BMI
+  return(bmi)
+}
+
+#Example
+# weight in kilograms
+weight_kg <- 70
+# height in meters
+height_m <- 1.75
