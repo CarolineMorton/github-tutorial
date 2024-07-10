@@ -1,0 +1,18 @@
+# bmi function
+
+calculate_bmi <- function(weight_kg, height_m) {
+
+  # calculate BMI
+  bmi <- weight_kg / (height_m^2)
+
+  # round to one decimal place
+  bmi <- round(bmi, 1)
+  return(bmi)
+}
+
+# example
+
+weight_kg <- 70
+height_m <- 1.75
+bmi <- calculate_bmi(weight_kg, height_m)
+print(paste("BMI:", bmi))
