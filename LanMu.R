@@ -1,0 +1,1 @@
+LanMu<-round(height/weight^2,0.1)
