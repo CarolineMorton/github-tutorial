@@ -1,4 +1,10 @@
+<<<<<<< Updated upstream
 calculate_bmi <- function(weight_kg, height_m) {
+=======
+# Calculate BMI
+bmi <- calculate_bmi(weight_kg, height_m)
+print(paste("The BMI is", bmi))calculate_bmi <- function(weight_kg, height_m) {
+>>>>>>> Stashed changes
   # Check if the input values are valid
   if(weight_kg <= 0 || height_m <= 0) {
     stop("Weight and height must be greater than zero.")
@@ -11,8 +17,16 @@ calculate_bmi <- function(weight_kg, height_m) {
   return(bmi)
 }
 
+<<<<<<< Updated upstream
 #Example
 # weight in kilograms
 weight_kg <- 70
 # height in meters
 height_m <- 1.75
+=======
+# Example usage:
+# weight in kilograms
+weight_kg <- 70
+# height in meters
+height_m <- 1.75
+>>>>>>> Stashed changes
